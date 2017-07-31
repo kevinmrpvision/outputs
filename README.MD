@@ -1,0 +1,1 @@
+Demo for using single interface with multiple class.

@@ -1,0 +1,20 @@
+{
+    "name": "kevin/output",
+    "description": "This is an package example",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Kevin Patel",
+            "email": "kevin@gmail.com"
+        }
+    ],
+    "require": {},
+	"autoload": {
+        "psr-4":{
+            "Kevin\\Output\\" : "output/src"
+        },
+        "classmap": [
+            "output/src"
+        ]
+    }
+}
